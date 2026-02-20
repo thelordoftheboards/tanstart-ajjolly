@@ -1,1 +1,1 @@
-export const copyrightName = 'Script Benders';
+export const copyrightName = 'Tanstart A. J. Jolly';

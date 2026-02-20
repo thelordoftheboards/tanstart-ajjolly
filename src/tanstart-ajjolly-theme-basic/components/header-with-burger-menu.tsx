@@ -21,15 +21,25 @@ export function HeaderWithMobileMenu({ links }: { links: HeaderWithBurgerMenuLin
         </div>
 
         <nav className="hidden items-center justify-center md:flex">
-          {links.map((link) => (
-            <Link
-              className="ml-8 font-medium text-muted-foreground text-sm transition-colors hover:text-foreground"
-              key={link.to}
-              to={link.to}
-            >
-              {link.title}
-            </Link>
-          ))}
+          {links.map((link) =>
+            'to' in link ? (
+              <Link
+                className="ml-8 font-medium text-muted-foreground text-sm transition-colors hover:text-foreground"
+                key={link.to}
+                to={link.to}
+              >
+                {link.title}
+              </Link>
+            ) : (
+              <a
+                className="ml-8 font-medium text-muted-foreground text-sm transition-colors hover:text-foreground"
+                href={link.url}
+                key={link.url}
+              >
+                {link.title}
+              </a>
+            )
+          )}
 
           <div className="min-w-4" />
 
@@ -56,18 +66,28 @@ export function HeaderWithMobileMenu({ links }: { links: HeaderWithBurgerMenuLin
                 </div>
                 <nav className="flex flex-col gap-4">
                   <ThemeToggle />
-                  {links.map((link) => (
-                    <Button
-                      className="w-full justify-start"
-                      key={link.to}
-                      render={
-                        <Link className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)} to={link.to}>
-                          {link.title}
-                        </Link>
-                      }
-                      variant="ghost"
-                    />
-                  ))}
+                  {links.map((link) =>
+                    'to' in link ? (
+                      <Button
+                        className="w-full justify-start"
+                        key={link.to}
+                        render={
+                          <Link
+                            className="flex items-center gap-2"
+                            onClick={() => setMobileMenuOpen(false)}
+                            to={link.to}
+                          >
+                            {link.title}
+                          </Link>
+                        }
+                        variant="ghost"
+                      />
+                    ) : (
+                      <a className="flex w-full items-center justify-start gap-2" href={link.url} key={link.url}>
+                        {link.title}
+                      </a>
+                    )
+                  )}
                 </nav>
               </div>
             </SheetContent>

@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as Page2IndexRouteImport } from './routes/page-2/index'
 import { Route as Page1IndexRouteImport } from './routes/page-1/index'
+import { Route as R404IndexRouteImport } from './routes/404/index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,33 +29,42 @@ const Page1IndexRoute = Page1IndexRouteImport.update({
   path: '/page-1/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const R404IndexRoute = R404IndexRouteImport.update({
+  id: '/404/',
+  path: '/404/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/404/': typeof R404IndexRoute
   '/page-1/': typeof Page1IndexRoute
   '/page-2/': typeof Page2IndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/404': typeof R404IndexRoute
   '/page-1': typeof Page1IndexRoute
   '/page-2': typeof Page2IndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/404/': typeof R404IndexRoute
   '/page-1/': typeof Page1IndexRoute
   '/page-2/': typeof Page2IndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/page-1/' | '/page-2/'
+  fullPaths: '/' | '/404/' | '/page-1/' | '/page-2/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/page-1' | '/page-2'
-  id: '__root__' | '/' | '/page-1/' | '/page-2/'
+  to: '/' | '/404' | '/page-1' | '/page-2'
+  id: '__root__' | '/' | '/404/' | '/page-1/' | '/page-2/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  R404IndexRoute: typeof R404IndexRoute
   Page1IndexRoute: typeof Page1IndexRoute
   Page2IndexRoute: typeof Page2IndexRoute
 }
@@ -82,11 +92,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Page1IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/404/': {
+      id: '/404/'
+      path: '/404'
+      fullPath: '/404/'
+      preLoaderRoute: typeof R404IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  R404IndexRoute: R404IndexRoute,
   Page1IndexRoute: Page1IndexRoute,
   Page2IndexRoute: Page2IndexRoute,
 }
