@@ -20,7 +20,7 @@ This boilerplate is part of a family of boilerplates:
     <td>Barebones boilerplate with Tanstack Start and basic Better Auth with password auth. Log in/sign on pages, dashboard and home page.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/thelordoftheboards/tanstart-ajjolly">Tanstart Cumberland</a></td>
+    <td><a href="https://github.com/thelordoftheboards/tanstart-cumberland">Tanstart Cumberland</a></td>
     <td>Starter kit that expands Tanstart Barren with Better Auth with organizations, account and admin screens, email, side bar for navigation and layout examples.</td>
   </tr>
   <tr>
