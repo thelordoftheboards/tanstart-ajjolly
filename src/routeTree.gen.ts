@@ -10,18 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as Page2IndexRouteImport } from './routes/page-2/index'
-import { Route as Page1IndexRouteImport } from './routes/page-1/index'
 import { Route as R404IndexRouteImport } from './routes/404/index'
+import { Route as Page1IndexRouteImport } from './routes/page-1/index'
+import { Route as Page2IndexRouteImport } from './routes/page-2/index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Page2IndexRoute = Page2IndexRouteImport.update({
-  id: '/page-2/',
-  path: '/page-2/',
+const R404IndexRoute = R404IndexRouteImport.update({
+  id: '/404/',
+  path: '/404/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const Page1IndexRoute = Page1IndexRouteImport.update({
@@ -29,9 +29,9 @@ const Page1IndexRoute = Page1IndexRouteImport.update({
   path: '/page-1/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const R404IndexRoute = R404IndexRouteImport.update({
-  id: '/404/',
-  path: '/404/',
+const Page2IndexRoute = Page2IndexRouteImport.update({
+  id: '/page-2/',
+  path: '/page-2/',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -78,11 +78,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/page-2/': {
-      id: '/page-2/'
-      path: '/page-2'
-      fullPath: '/page-2/'
-      preLoaderRoute: typeof Page2IndexRouteImport
+    '/404/': {
+      id: '/404/'
+      path: '/404'
+      fullPath: '/404/'
+      preLoaderRoute: typeof R404IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/page-1/': {
@@ -92,11 +92,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Page1IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/404/': {
-      id: '/404/'
-      path: '/404'
-      fullPath: '/404/'
-      preLoaderRoute: typeof R404IndexRouteImport
+    '/page-2/': {
+      id: '/page-2/'
+      path: '/page-2'
+      fullPath: '/page-2/'
+      preLoaderRoute: typeof Page2IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
   }

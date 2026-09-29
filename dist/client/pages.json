@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "path": "/"
+    },
+    {
+      "path": "/404/"
+    },
+    {
+      "path": "/page-1/"
+    },
+    {
+      "path": "/page-2/"
+    },
+    {
+      "path": "/page-1",
+      "fromCrawl": true
+    },
+    {
+      "path": "/page-2",
+      "fromCrawl": true
+    }
+  ],
+  "host": "https://tansart-ajjolly.example.com/",
+  "lastBuilt": "2026-09-29T17:49:20.464Z"
+}

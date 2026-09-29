@@ -2,7 +2,7 @@
 
 
 
-## Static site boilerplate for 🏝️ TanStack Start.
+## 🛥️ Static site boilerplate for 🏝️ TanStack Start.
 
 This boilerplate is part of a family of boilerplates:
 

@@ -8,11 +8,11 @@ import { meta } from '~/config/root-meta';
 import appCss from '~/styles.css?url';
 
 export const Route = createRootRoute({
-  head: () => ({
-    meta,
-    links: [{ rel: 'stylesheet', href: appCss }],
-  }),
   component: RootComponent,
+  head: () => ({
+    links: [{ href: appCss, rel: 'stylesheet' }],
+    meta,
+  }),
 });
 
 function RootComponent() {

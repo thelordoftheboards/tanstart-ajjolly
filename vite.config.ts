@@ -5,16 +5,13 @@ import { defineConfig } from 'vite';
 import { baseUrl } from './src/config/base-url';
 
 export default defineConfig({
-  resolve: {
-    tsconfigPaths: true,
-  },
   plugins: [
     tanstackStart({
       prerender: {
-        enabled: true,
+        autoStaticPathsDiscovery: true, // Automatically discover and prerender all linked paths
         // Optional: other prerender options
         autoSubfolderIndex: true, // e.g., output as /page/index.html instead of /page.html
-        autoStaticPathsDiscovery: true, // Automatically discover and prerender all linked paths
+        enabled: true,
       },
       sitemap: {
         enabled: true,
@@ -24,12 +21,15 @@ export default defineConfig({
     }),
     viteReact({
       // https://react.dev/learn/react-compiler
-      babel: {
-        plugins: [['babel-plugin-react-compiler', { target: '19' }]],
+      compiler: {
+        target: '19',
       },
     }),
     tailwindcss(),
   ],
+  resolve: {
+    tsconfigPaths: true,
+  },
   server: {
     allowedHosts: [process.env.SERVER_HOST ?? 'localhost'],
   },
