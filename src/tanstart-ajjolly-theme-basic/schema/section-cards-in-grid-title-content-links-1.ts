@@ -1,5 +1,7 @@
 import { type IconProps } from '@tabler/icons-react';
-import { ForwardRefExoticComponent, type RefAttributes } from 'react';
+import { type ForwardRefExoticComponent, type RefAttributes } from 'react';
+
+//
 
 export type CategoryCardCollectionItemType = {
   category: string;

@@ -1,5 +1,3 @@
-//
-
 export interface FeatureIconListItem {
   description: string;
   href?: string;
