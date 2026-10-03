@@ -5,6 +5,8 @@ import { FooterCompact1Example } from '~/tanstart-ajjolly-theme-basic-examples/c
 import { HeaderWithLogoNamePagesAndMobileMenu1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/header-with-logo-name-pages-and-mobile-menu-1';
 import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-header-h1-compact-1';
 
+//
+
 export function Page2() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-background">

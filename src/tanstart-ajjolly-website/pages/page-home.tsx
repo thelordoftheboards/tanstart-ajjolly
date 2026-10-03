@@ -13,6 +13,8 @@ import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic-e
 import { SectionHeroTitleSubtitle1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-hero-title-subtitle-1';
 import { SectionIconReasonsWithCenteredCallToAction1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-icon-reasons-with-centered-call-to-action-1';
 
+//
+
 export function PageHome() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-background">
