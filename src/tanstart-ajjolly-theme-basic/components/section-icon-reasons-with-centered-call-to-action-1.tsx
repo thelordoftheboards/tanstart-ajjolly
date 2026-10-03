@@ -13,7 +13,7 @@ export const SectionIconReasonsWithCenteredCallToAction1 = ({
   const items = (features ?? []).slice(0, MAX_FEATURES);
 
   return (
-    <section className={cn('py-32', className)}>
+    <section className={cn('flex items-center justify-center py-32', className)}>
       <div className="container">
         {!!heading && (
           <div className="mx-auto mb-16 max-w-3xl text-center">
