@@ -8,6 +8,8 @@ import {
 } from '@tabler/icons-react';
 import { type SectionCardsInGridTitleContentLinks1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-cards-in-grid-title-content-links-1';
 
+//
+
 export const SectionCardsInGridTitleContentLinks1Example: SectionCardsInGridTitleContentLinks1Props = {
   items: [
     {

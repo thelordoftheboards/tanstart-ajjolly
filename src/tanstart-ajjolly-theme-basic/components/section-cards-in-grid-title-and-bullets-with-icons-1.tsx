@@ -2,12 +2,14 @@ import { cn } from 'cn';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
 import { SectionCardsInGridTitleAndBulletsWithIcons1Props } from '../schema/section-cards-in-grid-title-and-bullets-with-icons-1';
 
+//
+
 export function SectionCardsInGridTitleAndBulletsWithIcons1({
   cards,
-  className,
+  containerClassName,
 }: SectionCardsInGridTitleAndBulletsWithIcons1Props) {
   return (
-    <div className={cn('grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3', className)}>
+    <div className={cn('grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3', containerClassName)}>
       {cards.map((card) => (
         <Card key={card.title}>
           <CardHeader className="flex flex-row items-center gap-3 pb-2">

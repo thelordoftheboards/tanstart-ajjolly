@@ -1,5 +1,7 @@
 import { type HeaderWithLogoNamePagesAndMobileMenu1Props } from '../../tanstart-ajjolly-theme-basic/schema/header-with-logo-name-pages-and-mobile-menu-1';
 
+//
+
 export const HeaderWithLogoNamePagesAndMobileMenu1Example: HeaderWithLogoNamePagesAndMobileMenu1Props = {
   links: [
     { title: 'Page 1', to: '/page-1' },

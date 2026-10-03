@@ -14,6 +14,8 @@ import {
 } from '@tabler/icons-react';
 import { SectionIconReasonsWithCenteredCallToAction1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-icon-reasons-with-centered-call-to-action-1';
 
+//
+
 export const SectionIconReasonsWithCenteredCallToAction1Example: SectionIconReasonsWithCenteredCallToAction1Props = {
   bottomButtoms: {
     primary: {

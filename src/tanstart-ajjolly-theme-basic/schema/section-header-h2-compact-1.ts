@@ -1,5 +1,5 @@
 /**
- * The component properties describe a small section header.
+ * The component properties describe a small in-section header.
  * On top there is a H2 title with larger font, centered.
  * Below is the subtitle paragraph with smaller font.
  */
