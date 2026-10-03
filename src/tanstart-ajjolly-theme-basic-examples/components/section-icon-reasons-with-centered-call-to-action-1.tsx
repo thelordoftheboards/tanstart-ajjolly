@@ -91,5 +91,5 @@ export const SectionIconReasonsWithCenteredCallToAction1Example: SectionIconReas
       title: 'Nullam diam arcu',
     },
   ],
-  heading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
 };

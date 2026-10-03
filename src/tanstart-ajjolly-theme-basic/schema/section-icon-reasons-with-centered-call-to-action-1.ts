@@ -18,9 +18,9 @@ export interface BottomButtons {
 
 export interface FeatureIconListProps {
   bottomButtoms?: BottomButtons;
-  className?: string;
+  containerClassName?: string;
   features?: FeatureIconListItem[];
-  heading: string;
+  title: string;
 }
 
 export interface SectionIconReasonsWithCenteredCallToAction1Props extends FeatureIconListProps {}

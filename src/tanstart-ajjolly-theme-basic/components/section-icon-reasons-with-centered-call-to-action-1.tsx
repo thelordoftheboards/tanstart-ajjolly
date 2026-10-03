@@ -5,19 +5,19 @@ import { SectionIconReasonsWithCenteredCallToAction1Props } from '../schema/sect
 const MAX_FEATURES = 6;
 
 export const SectionIconReasonsWithCenteredCallToAction1 = ({
-  heading,
+  title,
   bottomButtoms: buttons,
   features,
-  className,
+  containerClassName,
 }: SectionIconReasonsWithCenteredCallToAction1Props) => {
   const items = (features ?? []).slice(0, MAX_FEATURES);
 
   return (
-    <section className={cn('flex items-center justify-center py-32', className)}>
+    <section className={cn('flex items-center justify-center py-32', containerClassName)}>
       <div className="container">
-        {!!heading && (
+        {!!title && (
           <div className="mx-auto mb-16 max-w-3xl text-center">
-            <h2 className="text-pretty font-semibold text-4xl tracking-tight lg:text-5xl">{heading}</h2>
+            <h2 className="text-pretty font-semibold text-4xl tracking-tight lg:text-5xl">{title}</h2>
           </div>
         )}
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
