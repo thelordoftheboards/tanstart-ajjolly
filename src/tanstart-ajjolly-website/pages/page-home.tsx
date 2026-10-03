@@ -5,13 +5,13 @@ import { SectionCardsInGridTitleContentLinks1 } from '~/tanstart-ajjolly-theme-b
 import { SectionHeaderH1Compact1 } from '~/tanstart-ajjolly-theme-basic/components/section-header-h1-compact-1';
 import { SectionHeroTitleSubtitle1 } from '~/tanstart-ajjolly-theme-basic/components/section-hero-title-subtitle-1';
 import { SectionIconReasonsWithCenteredCallToAction1 } from '~/tanstart-ajjolly-theme-basic/components/section-icon-reasons-with-centered-call-to-action-1';
-import { FooterCompact1Example } from '~/tanstart-ajjolly-theme-basic/examples/footer-compact-1';
-import { HeaderWithLogoNamePagesAndMobileMenu1Example } from '~/tanstart-ajjolly-theme-basic/examples/header-with-logo-name-pages-and-mobile-menu-1';
-import { SectionCardsInGridTitleAndBulletsWithIcons1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-cards-in-grid-title-and-bullets-with-icons-1';
-import { SectionCardsInGridTitleContentLinks1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-cards-in-grid-title-content-links-1';
-import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-header-h1-compact-1';
-import { SectionHeroTitleSubtitle1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-hero-title-subtitle-1';
-import { SectionIconReasonsWithCenteredCallToAction1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-icon-reasons-with-centered-call-to-action-1';
+import { FooterCompact1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/footer-compact-1';
+import { HeaderWithLogoNamePagesAndMobileMenu1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/header-with-logo-name-pages-and-mobile-menu-1';
+import { SectionCardsInGridTitleAndBulletsWithIcons1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-cards-in-grid-title-and-bullets-with-icons-1';
+import { SectionCardsInGridTitleContentLinks1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-cards-in-grid-title-content-links-1';
+import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-header-h1-compact-1';
+import { SectionHeroTitleSubtitle1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-hero-title-subtitle-1';
+import { SectionIconReasonsWithCenteredCallToAction1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-icon-reasons-with-centered-call-to-action-1';
 
 export function PageHome() {
   return (

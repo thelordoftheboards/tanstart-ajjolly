@@ -10,7 +10,7 @@ import {
   IconNumber19Small,
   IconNumber20Small,
 } from '@tabler/icons-react';
-import { SectionCardsInGridTitleAndBulletsWithIcons1Props } from '../schema/section-cards-in-grid-title-and-bullets-with-icons-1';
+import { SectionCardsInGridTitleAndBulletsWithIcons1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-cards-in-grid-title-and-bullets-with-icons-1';
 
 export const SectionCardsInGridTitleAndBulletsWithIcons1Example: SectionCardsInGridTitleAndBulletsWithIcons1Props = {
   cards: [

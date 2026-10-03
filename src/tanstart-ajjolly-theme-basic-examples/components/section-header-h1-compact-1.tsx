@@ -1,4 +1,4 @@
-import { SectionHeaderH1Compact1Props } from '../schema/section-header-h1-compact-1';
+import { SectionHeaderH1Compact1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-header-h1-compact-1';
 
 export const SectionHeaderH1Compact1Example: SectionHeaderH1Compact1Props = {
   subtitle:

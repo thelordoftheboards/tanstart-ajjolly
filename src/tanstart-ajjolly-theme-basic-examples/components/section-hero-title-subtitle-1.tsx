@@ -1,4 +1,4 @@
-import { SectionHeroTitleSubtitle1Props } from '../schema/section-hero-title-subtitle-1';
+import { SectionHeroTitleSubtitle1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-hero-title-subtitle-1';
 
 export const SectionHeroTitleSubtitle1Example: SectionHeroTitleSubtitle1Props = {
   subtitle:

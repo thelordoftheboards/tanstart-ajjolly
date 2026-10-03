@@ -1,9 +1,9 @@
 import { FooterCompact1 } from '~/tanstart-ajjolly-theme-basic/components/footer-compact-1';
 import { HeaderWithLogoNamePagesAndMobileMenu1 } from '~/tanstart-ajjolly-theme-basic/components/header-with-logo-name-pages-and-mobile-menu-1';
 import { SectionHeaderH1Compact1 } from '~/tanstart-ajjolly-theme-basic/components/section-header-h1-compact-1';
-import { FooterCompact1Example } from '~/tanstart-ajjolly-theme-basic/examples/footer-compact-1';
-import { HeaderWithLogoNamePagesAndMobileMenu1Example } from '~/tanstart-ajjolly-theme-basic/examples/header-with-logo-name-pages-and-mobile-menu-1';
-import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic/examples/section-header-h1-compact-1';
+import { FooterCompact1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/footer-compact-1';
+import { HeaderWithLogoNamePagesAndMobileMenu1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/header-with-logo-name-pages-and-mobile-menu-1';
+import { SectionHeaderH1Compact1Example } from '~/tanstart-ajjolly-theme-basic-examples/components/section-header-h1-compact-1';
 
 export function Page2() {
   return (

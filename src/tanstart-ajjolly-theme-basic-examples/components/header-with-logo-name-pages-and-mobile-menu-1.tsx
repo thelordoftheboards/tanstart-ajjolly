@@ -1,4 +1,4 @@
-import { type HeaderWithLogoNamePagesAndMobileMenu1Props } from '../schema/header-with-logo-name-pages-and-mobile-menu-1';
+import { type HeaderWithLogoNamePagesAndMobileMenu1Props } from '../../tanstart-ajjolly-theme-basic/schema/header-with-logo-name-pages-and-mobile-menu-1';
 
 export const HeaderWithLogoNamePagesAndMobileMenu1Example: HeaderWithLogoNamePagesAndMobileMenu1Props = {
   links: [

@@ -12,7 +12,7 @@ import {
   IconNumber21Small,
   IconNumber22Small,
 } from '@tabler/icons-react';
-import { SectionIconReasonsWithCenteredCallToAction1Props } from '../schema/section-icon-reasons-with-centered-call-to-action-1';
+import { SectionIconReasonsWithCenteredCallToAction1Props } from '../../tanstart-ajjolly-theme-basic/schema/section-icon-reasons-with-centered-call-to-action-1';
 
 export const SectionIconReasonsWithCenteredCallToAction1Example: SectionIconReasonsWithCenteredCallToAction1Props = {
   bottomButtoms: {
