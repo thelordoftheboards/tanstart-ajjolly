@@ -7,13 +7,13 @@ export function SectionCardsInGridTitleContentLinks1({ items }: SectionCardsInGr
   return (
     <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {items.map((item) => (
-        <Card className="flex flex-col transition-shadow duration-200 hover:shadow-lg" key={item.category}>
+        <Card className="flex flex-col transition-shadow duration-200 hover:shadow-lg" key={item.title}>
           <CardHeader className="flex flex-row items-center gap-3 pb-4">
-            <item.icon className="h-6 w-6 text-primary" />
-            <CardTitle className="font-semibold text-lg">{item.category}</CardTitle>
+            <item.titleIcon className="h-6 w-6 text-primary" />
+            <CardTitle className="font-semibold text-lg">{item.title}</CardTitle>
           </CardHeader>
           <CardContent className="flex-1">
-            <CardDescription className="mb-4">{item.description}</CardDescription>
+            <CardDescription className="mb-4">{item.content}</CardDescription>
             <div className="flex flex-wrap gap-2">
               {item.links.map((link) => (
                 <Badge key={link.name} variant="secondary">

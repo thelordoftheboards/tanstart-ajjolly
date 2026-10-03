@@ -11,16 +11,19 @@ interface FeatureCardListItem {
   label?: string;
   title: string;
 }
+
 interface Image {
   alt: string;
   src: string;
   srcDark?: string;
 }
+
 interface BelowHeaderButton {
   icon?: ForwardRefExoticComponent<IconProps & RefAttributes<SVGSVGElement>>;
   text: string;
   url: string;
 }
+
 interface Buttons {
   primary?: BelowHeaderButton;
   secondary?: BelowHeaderButton;

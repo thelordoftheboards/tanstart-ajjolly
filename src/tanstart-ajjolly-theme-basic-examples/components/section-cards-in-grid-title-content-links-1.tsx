@@ -11,49 +11,49 @@ import { type SectionCardsInGridTitleContentLinks1Props } from '../../tanstart-a
 export const SectionCardsInGridTitleContentLinks1Example: SectionCardsInGridTitleContentLinks1Props = {
   items: [
     {
-      category: 'Category 1',
-      description:
+      content:
         'Vivamus turpis lectus, sollicitudin id purus eget, pharetra varius dolor. Sed sit amet tristique dolor. Nam tincidunt tempus mauris id dapibus.',
-      icon: IconPentagonNumber1,
       links: [{ href: 'https://example.com/', name: 'Lacinia vel' }],
+      title: 'Category 1',
+      titleIcon: IconPentagonNumber1,
     },
     {
-      category: 'Category 2',
-      description:
+      content:
         'Cras eros dolor, suscipit non placerat sodales, vestibulum id est. Nullam viverra fringilla orci, eget sodales nibh malesuada laoreet. Sed volutpat fringilla fringilla.',
-      icon: IconPentagonNumber2,
       links: [
         { href: 'https://example.com/', name: 'Justo' },
         { href: 'https://example.com/', name: 'Duis commodo' },
       ],
+      title: 'Category 2',
+      titleIcon: IconPentagonNumber2,
     },
     {
-      category: 'Category 3',
-      description:
+      content:
         'Quisque elementum, eros quis malesuada malesuada, lacus massa malesuada libero, sed volutpat nisi orci feugiat magna. Aliquam eu sapien sed odio rhoncus varius.',
-      icon: IconPentagonNumber3,
       links: [],
+      title: 'Category 3',
+      titleIcon: IconPentagonNumber3,
     },
     {
-      category: 'Category 4',
-      description:
+      content:
         'Curabitur nec efficitur mi. Aenean vestibulum diam in purus mattis ornare. Suspendisse vitae eros metus. ',
-      icon: IconPentagonNumber4,
       links: [{ href: 'https://example.com/', name: 'Vivamus lobortis' }],
+      title: 'Category 4',
+      titleIcon: IconPentagonNumber4,
     },
     {
-      category: 'Category 5',
-      description:
+      content:
         'Sed aliquet urna vel enim luctus, a iaculis risus sollicitudin. Nunc in imperdiet velit. Mauris posuere ac felis ut malesuada.',
-      icon: IconPentagonNumber5,
       links: [{ href: 'https://example.com/', name: 'Phasellus semper' }],
+      title: 'Category 5',
+      titleIcon: IconPentagonNumber5,
     },
     {
-      category: 'Category 6',
-      description:
+      content:
         'Nunc vel augue a lectus pharetra faucibus eu id dolor. Ut nec ultricies risus. Sed id nisi augue. Integer dictum mauris quis elit rhoncus sagittis.',
-      icon: IconPentagonNumber6,
       links: [],
+      title: 'Category 6',
+      titleIcon: IconPentagonNumber6,
     },
   ],
 };
