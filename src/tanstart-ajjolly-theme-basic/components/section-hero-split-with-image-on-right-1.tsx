@@ -1,62 +1,17 @@
 import { cn } from 'cn';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '~/components/ui/button';
+import { SectionHeroSplitWithImageOnRight1Props } from '~/tanstart-ajjolly-theme-basic/schema/section-hero-split-with-image-on-right-1';
 
-interface Image {
-  alt: string;
-  src: string;
-  srcDark?: string;
-}
+//
 
-interface HeroButton {
-  icon?: React.ReactNode;
-  text: string;
-  url: string;
-}
-
-interface Buttons {
-  primary?: HeroButton;
-  secondary?: HeroButton;
-}
-
-interface HeroBasicProps {
-  buttons?: Buttons;
-  className?: string;
-  description: string;
-  heading: string;
-  image: Image;
-}
-
-interface Hero1Props extends HeroBasicProps {}
-type Props = Partial<Hero1Props>;
-
-const defaultProps: Hero1Props = {
-  buttons: {
-    primary: {
-      text: 'Browse Components',
-      url: 'https://shadcnblocks.com',
-    },
-    secondary: {
-      text: 'View GitHub',
-      url: 'https://shadcnblocks.com',
-    },
-  },
-  description:
-    'Finely crafted components built with React, Tailwind and shadcn/ui. Developers can copy and paste these blocks directly into their project.',
-  heading: 'Blocks Built With Shadcn & Tailwind',
-  image: {
-    alt: 'Hero Image Placeholder',
-    src: 'https://deifkwefumgah.cloudfront.net/shadcnblocks/image-set/modern/saas-hero/saas-hero-1-16x9.png',
-    srcDark: 'https://deifkwefumgah.cloudfront.net/shadcnblocks/image-set/modern/saas-hero/saas-hero-1-16x9-dark.png',
-  },
-};
-
-const Hero1 = (props: Props) => {
-  const { heading, description, buttons, image, className } = {
-    ...defaultProps,
-    ...props,
-  };
-
+export const SectionHeroSplitWithImageOnRight1 = ({
+  heading,
+  description,
+  buttons,
+  image,
+  className,
+}: SectionHeroSplitWithImageOnRight1Props) => {
   return (
     <section className={cn('py-32', className)}>
       <div className="container mx-auto">
@@ -119,7 +74,5 @@ const Hero1 = (props: Props) => {
     </section>
   );
 };
-
-export { Hero1 };
 
 // Inspired by https://www.shadcnblocks.com/block/hero1
