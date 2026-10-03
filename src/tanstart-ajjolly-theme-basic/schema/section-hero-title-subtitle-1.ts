@@ -1,7 +1,9 @@
 /**
  * The component properties describe a small hero section.
+ * On top there is a H1 title with larger font, centered.
+ * Below is the subtitle with smaller font.
  */
 export interface SectionHeroTitleSubtitle1Props {
-  subtitle: string; // Smaller font centered paragraph below the title
-  title: string; // Larger centered H1 on top
+  subtitle: string;
+  title: string;
 }

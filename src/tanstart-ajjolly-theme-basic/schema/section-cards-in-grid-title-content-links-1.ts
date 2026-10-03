@@ -14,7 +14,7 @@ export type CategoryCardCollectionItemType = {
 };
 
 /**
- * The component properties describe a section consisting of cards in a grid.
+ * The component properties describe a section consisting of cards in a grid 1-4 cards wide.
  * Each card has three sections separated vertically:
  * - On top: a title with an icon left of the text.
  * Recommendation: Text to be up to 15-20 characters.
