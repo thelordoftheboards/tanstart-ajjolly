@@ -9,3 +9,7 @@ export type HeaderWithBurgerMenuLinkType =
       title: string;
       url: string;
     };
+
+export type HeaderWithBurgerMenuProps = {
+  links: HeaderWithBurgerMenuLinkType[];
+};
