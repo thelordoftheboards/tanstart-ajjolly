@@ -9,8 +9,8 @@ export const headerTitle = 'Tanstart A. J. Jolly';
 export const HeaderIcon = ({ className, ...props }: IconProps) => (
   <>
     {/* @ts-expect-error */}
-    <img alt="Pest Pentagon Logo" className={cn('dark:hidden', className)} src={IconLightMode} {...props} />
+    <img alt={`${headerTitle} Logo`} className={cn('dark:hidden', className)} src={IconLightMode} {...props} />
     {/* @ts-expect-error */}
-    <img alt="Pest Pentagon Logo" className={cn('hidden dark:block', className)} src={IconDarkMode} {...props} />
+    <img alt={`${headerTitle} Logo`} className={cn('hidden dark:block', className)} src={IconDarkMode} {...props} />
   </>
 );

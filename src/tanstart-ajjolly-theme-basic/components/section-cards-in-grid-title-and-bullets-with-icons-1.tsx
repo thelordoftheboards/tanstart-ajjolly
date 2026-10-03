@@ -1,6 +1,6 @@
 import { cn } from 'cn';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { SectionCardsInGridTitleAndBulletsWithIcons1Props } from '../schema/section-cards-in-grid-title-and-bullets-with-icons1';
+import { SectionCardsInGridTitleAndBulletsWithIcons1Props } from '../schema/section-cards-in-grid-title-and-bullets-with-icons-1';
 
 export function SectionCardsInGridTitleAndBulletsWithIcons1({
   cards,

@@ -1,7 +1,7 @@
 import { cn } from 'cn';
-import { SectionFooterCompact1Props } from '../schema/section-footer-copact-1';
+import { FooterCompact1Props } from '../schema/footer-compact-1';
 
-export function SectionFooterCompact1({ className, copyrightName }: SectionFooterCompact1Props) {
+export function FooterCompact1({ className, copyrightName }: FooterCompact1Props) {
   return (
     <footer className={cn('mt-16 border-t', className)}>
       <div className="container py-6 text-center text-muted-foreground text-sm">

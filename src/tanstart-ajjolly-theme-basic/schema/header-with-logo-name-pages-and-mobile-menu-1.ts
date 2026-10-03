@@ -10,6 +10,6 @@ export type HeaderWithBurgerMenuLinkType =
       url: string;
     };
 
-export type HeaderWithBurgerMenuProps = {
+export type HeaderWithLogoNamePagesAndMobileMenu1Props = {
   links: HeaderWithBurgerMenuLinkType[];
 };

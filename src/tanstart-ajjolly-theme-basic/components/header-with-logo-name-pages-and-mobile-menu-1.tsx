@@ -5,9 +5,9 @@ import { ThemeToggle } from '~/components/theme-toggle';
 import { Button } from '~/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '~/components/ui/sheet';
 import { HeaderIcon, headerTitle } from '~/tanstart-ajjolly-theme-basic-config/client/header-with-burger-menu';
-import { type HeaderWithBurgerMenuProps } from '../schema/header-with-burger-menu';
+import { type HeaderWithLogoNamePagesAndMobileMenu1Props } from '../schema/header-with-logo-name-pages-and-mobile-menu-1';
 
-export function HeaderWithMobileMenu({ links }: HeaderWithBurgerMenuProps) {
+export function HeaderWithLogoNamePagesAndMobileMenu1({ links }: HeaderWithLogoNamePagesAndMobileMenu1Props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (

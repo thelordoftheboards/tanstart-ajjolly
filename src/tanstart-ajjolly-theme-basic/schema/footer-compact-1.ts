@@ -1,6 +1,6 @@
 //
 
-export interface SectionFooterCompact1Props {
+export interface FooterCompact1Props {
   className?: string;
   copyrightName: string;
 }
