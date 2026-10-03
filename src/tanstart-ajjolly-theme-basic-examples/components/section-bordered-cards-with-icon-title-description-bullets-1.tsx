@@ -5,33 +5,33 @@ import { SectionBorderedCardsWithIconTitleDescriptionBullets1Props } from '~/tan
 
 export const SectionBorderedCardsWithIconTitleDescriptionBullets1Example: SectionBorderedCardsWithIconTitleDescriptionBullets1Props =
   {
-    heading: 'Services',
+    heading: 'Lorem Ipsum',
     services: [
       {
         description:
-          'Strategic planning and market positioning to ensure your product meets user needs and business goals.',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
         icon: IconSettings,
-        items: ['Market Research', 'User Personas', 'Competitive Analysis'],
-        title: 'Product Strategy',
+        items: ['Consectetur Elit', 'Sed Eiusmod', 'Incididunt Ut Labore'],
+        title: 'Dolor Sit Amet',
       },
       {
-        description: 'Beautiful, user-centered designs that create engaging experiences across all platforms.',
+        description: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
         icon: IconPalette,
-        items: ['UI/UX Design', 'Prototyping', 'Interaction Design'],
-        title: 'Design',
+        items: ['Eiusmod Tempor', 'Magna Aliqua', 'Veniam Quis Nostrud'],
+        title: 'Sit Amet',
       },
       {
-        description: 'Modern, scalable web applications built with the latest technologies and best practices.',
+        description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
         icon: IconCode,
-        items: ['Frontend Dev', 'Backend Dev', 'API Integration'],
-        title: 'Web Development',
+        items: ['Dolore Magna', 'Ut Enim Ad', 'Exercitation'],
+        title: 'Ullamco Laboris',
       },
       {
-        description: 'Data-driven strategies to launch successfully and scale your product efficiently.',
+        description: 'Ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation.',
         icon: IconPlant,
-        items: ['SEO Strategy', 'Analytics & Data', 'A/B Testing'],
-        title: 'Marketing',
+        items: ['Cillum Fugiat', 'Nulla Pariatur', 'Eu Fugiat'],
+        title: 'Irure Dolor',
       },
     ],
-    subtitle: 'We craft digital experiences that captivate and convert, bringing your vision to life.',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   };
