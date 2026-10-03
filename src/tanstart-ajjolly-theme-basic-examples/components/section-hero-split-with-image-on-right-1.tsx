@@ -5,17 +5,17 @@ import { SectionHeroSplitWithImageOnRight1Props } from '~/tanstart-ajjolly-theme
 export const SectionHeroSplitWithImageOnRight1Example: SectionHeroSplitWithImageOnRight1Props = {
   buttons: {
     primary: {
-      text: 'Browse Components',
+      text: 'Lorem ipsum dolor',
       url: 'https://example.com',
     },
     secondary: {
-      text: 'View GitHub',
+      text: 'Sit amet lorem',
       url: 'https://example.com',
     },
   },
   description:
-    'Finely crafted components built with React, Tailwind and shadcn/ui. Developers can copy and paste these blocks directly into their project.',
-  heading: 'Blocks Built With Shadcn & Tailwind',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+  heading: 'Lorem Ipsum Dolor Sit Amet Consectetur',
   image: {
     alt: 'Hero Image Placeholder',
     src: 'https://images.pexels.com/photos/3394939/pexels-photo-3394939.jpeg',

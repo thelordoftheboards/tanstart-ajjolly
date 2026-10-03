@@ -3,48 +3,48 @@ import { SectionFAQWithCollapsingAnswers1Props } from '~/tanstart-ajjolly-theme-
 //
 
 export const SectionFAQWithCollapsingAnswers1Example: SectionFAQWithCollapsingAnswers1Props = {
-  heading: 'Frequently asked questions',
+  heading: 'Lorem ipsum dolor sit amet',
   items: [
     {
-      answer: 'A FAQ is a list of frequently asked questions and answers on a particular topic.',
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
       id: 'faq-1',
-      question: 'What is a FAQ?',
+      question: 'Consectetur adipiscing elit?',
     },
     {
       answer:
-        'The purpose of a FAQ is to provide answers to common questions and help users find the information they need quickly and easily.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in urna vestibulum, eleifend orci non, porta neque donec et ullamcorper.',
       id: 'faq-2',
-      question: 'What is the purpose of a FAQ?',
+      question: 'Curabitur at tellus vitae urna?',
     },
     {
       answer:
-        'To create a FAQ, you need to compile a list of common questions and answers on a particular topic and organize them in a clear and easy-to-navigate format.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.',
       id: 'faq-3',
-      question: 'How do I create a FAQ?',
+      question: 'Vestibulum ante ipsum primis?',
     },
     {
       answer:
-        'The benefits of a FAQ include providing quick and easy access to information, reducing the number of support requests, and improving the overall user experience.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis.',
       id: 'faq-4',
-      question: 'What are the benefits of a FAQ?',
+      question: 'Felis euismod at semper vitae?',
     },
     {
       answer:
-        'You should organize your FAQ in a logical manner, grouping related questions together and ordering them from most basic to more advanced topics.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.',
       id: 'faq-5',
-      question: 'How should I organize my FAQ?',
+      question: 'Nullam vehicula auctor nibh?',
     },
     {
       answer:
-        'FAQ answers should be concise and to the point, typically a few sentences or a short paragraph is sufficient for most questions.',
+        'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis.',
       id: 'faq-6',
-      question: 'How long should FAQ answers be?',
+      question: 'Magnis dis parturient montes?',
     },
     {
       answer:
-        'Yes, including links to more detailed information or related resources can be very helpful for users who want to learn more about a particular topic.',
+        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
       id: 'faq-7',
-      question: 'Should I include links in my FAQ?',
+      question: 'Nunc pulvinar sapien et ligula?',
     },
   ],
 };
