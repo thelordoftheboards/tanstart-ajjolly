@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "lsp": true,
+  "skills": {
+    "paths": [".agents/skills"]
+  },
+  "provider": {
+    "halogen": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "halogen (green machine)",
+      "options": {
+        "baseURL": "http://192.168.0.238:8731/v1/"
+      },
+      "models": {
+        "halogen-qwen3.8-flash-next": {
+          "name": "halogen-qwen3.8-flash-next"
+        }
+      }
+    }
+  }
+}

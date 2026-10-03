@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<svg
+  aria-label="Losidem Labs logo"
+  height="32"
+  viewBox="0 0 32 32"
+  width="32"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+>
+  <rect fill="#ffa020" height="32" rx="4" width="32" x="0" y="0" />
+  <g transform="translate(6.9606086,4)">
+    <path
+      d="M 8.8040388,23.440374 V 7.988696 h 1.9050032 v 13.716008 h 6.98501 v 1.73567 z"
+      fill="#242020"
+      style="stroke-width:0.264583"
+    />
+    <path
+      d="M 0.3847308,16.011316 V 0.55962605 h 1.905003 V 14.275656 h 6.985011 v 1.73566 z"
+      fill="#242020"
+      style="stroke-width:0.264583"
+    />
+  </g>
+</svg>
