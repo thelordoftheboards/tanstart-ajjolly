@@ -67,6 +67,7 @@ export function HeaderWithLogoNamePagesAndMobileMenu1({
                 </Button>
               }
             />
+
             <SheetContent className="w-75 sm:w-100" side="right">
               <div className="flex flex-col gap-6 pt-6">
                 <div className="flex items-center justify-between">
@@ -75,6 +76,7 @@ export function HeaderWithLogoNamePagesAndMobileMenu1({
                     <span className="font-bold text-lg">{headerTitle}</span>
                   </div>
                 </div>
+
                 <nav className="flex flex-col gap-4">
                   <ThemeToggle />
                   {links.map((link) =>

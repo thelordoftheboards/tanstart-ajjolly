@@ -7,7 +7,7 @@ export function SectionBorderedCardsWithIconTitleDescriptionBullets1({
 }: SectionBorderedCardsWithIconTitleDescriptionBullets1Props) {
   return (
     <section className={cn('my-16', containerClassName)}>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {cards.map((card) => (
             <div
@@ -20,7 +20,9 @@ export function SectionBorderedCardsWithIconTitleDescriptionBullets1({
                 </div>
                 <h3 className="font-semibold text-xl">{card.title}</h3>
               </div>
+
               <p className="text-muted-foreground leading-relaxed">{card.description}</p>
+
               <div className="space-y-2">
                 {card.items.map((item) => (
                   <div className="flex items-center gap-2" key={item}>

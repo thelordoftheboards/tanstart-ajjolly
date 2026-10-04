@@ -20,7 +20,9 @@ export const SectionHeroSplitWithImageOnRight1 = ({
             <h1 className="max-w-xl text-pretty font-semibold text-4xl tracking-tight md:text-5xl lg:max-w-3xl lg:text-6xl">
               {heading}
             </h1>
+
             <p className="max-w-5xl text-balance text-muted-foreground lg:text-xl">{description}</p>
+
             <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
               {!!buttons?.primary && (
                 <Button
@@ -46,6 +48,7 @@ export const SectionHeroSplitWithImageOnRight1 = ({
               )}
             </div>
           </div>
+
           {image.srcDark ? (
             <>
               {/** biome-ignore lint/correctness/useImageSize: Allow */}
