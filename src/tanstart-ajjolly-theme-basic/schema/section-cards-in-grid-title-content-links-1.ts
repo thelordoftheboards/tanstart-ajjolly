@@ -23,4 +23,7 @@ export type CategoryCardCollectionItemType = {
  * - At the bottom: List of lnks in clickable badges in even smaller font.
  * Recommendation: 2-4 links with 10-20 chatacter titles.
  */
-export type SectionCardsInGridTitleContentLinks1Props = { items: CategoryCardCollectionItemType[] };
+export type SectionCardsInGridTitleContentLinks1Props = {
+  items: CategoryCardCollectionItemType[];
+  containerClassName?: string;
+};

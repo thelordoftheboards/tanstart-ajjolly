@@ -1,4 +1,5 @@
 import { Link } from '@tanstack/react-router';
+import { cn } from 'cn';
 import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { ThemeToggle } from '~/components/theme-toggle';
@@ -7,11 +8,21 @@ import { Sheet, SheetContent, SheetTrigger } from '~/components/ui/sheet';
 import { HeaderIcon, headerTitle } from '~/tanstart-ajjolly-theme-basic-config/client/header-with-burger-menu';
 import { type HeaderWithLogoNamePagesAndMobileMenu1Props } from '../schema/header-with-logo-name-pages-and-mobile-menu-1';
 
-export function HeaderWithLogoNamePagesAndMobileMenu1({ links }: HeaderWithLogoNamePagesAndMobileMenu1Props) {
+//
+
+export function HeaderWithLogoNamePagesAndMobileMenu1({
+  links,
+  containerClassName,
+}: HeaderWithLogoNamePagesAndMobileMenu1Props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
+    <header
+      className={cn(
+        'sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60',
+        containerClassName
+      )}
+    >
       <div className="flex h-16 w-full items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <Link className="flex gap-2" to="/">

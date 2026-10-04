@@ -14,4 +14,5 @@ export type HeaderWithBurgerMenuLinkType =
 
 export type HeaderWithLogoNamePagesAndMobileMenu1Props = {
   links: HeaderWithBurgerMenuLinkType[];
+  containerClassName?: string;
 };

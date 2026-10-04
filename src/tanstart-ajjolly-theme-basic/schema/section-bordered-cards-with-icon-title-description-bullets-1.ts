@@ -11,8 +11,6 @@ export type BorderedCardWithIconTitleDescriptionBulletsItem = {
 };
 
 export type SectionBorderedCardsWithIconTitleDescriptionBullets1Props = {
-  className?: string;
-  heading: string;
-  services: BorderedCardWithIconTitleDescriptionBulletsItem[];
-  subtitle: string;
+  containerClassName?: string;
+  items: BorderedCardWithIconTitleDescriptionBulletsItem[];
 };

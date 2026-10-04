@@ -4,6 +4,7 @@
  * Below is the subtitle with smaller font.
  */
 export interface SectionHeroTitleSubtitle1Props {
+  containerClassName?: string;
   subtitle: string;
   title: string;
 }

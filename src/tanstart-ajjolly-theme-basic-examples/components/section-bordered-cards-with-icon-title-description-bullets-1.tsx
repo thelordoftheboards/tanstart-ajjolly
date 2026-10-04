@@ -5,8 +5,7 @@ import { SectionBorderedCardsWithIconTitleDescriptionBullets1Props } from '~/tan
 
 export const SectionBorderedCardsWithIconTitleDescriptionBullets1Example: SectionBorderedCardsWithIconTitleDescriptionBullets1Props =
   {
-    heading: 'Lorem Ipsum',
-    services: [
+    items: [
       {
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
@@ -33,5 +32,4 @@ export const SectionBorderedCardsWithIconTitleDescriptionBullets1Example: Sectio
         title: 'Irure Dolor',
       },
     ],
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
   };
