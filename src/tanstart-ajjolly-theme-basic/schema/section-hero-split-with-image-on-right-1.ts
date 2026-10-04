@@ -15,6 +15,10 @@ interface Buttons {
   secondary?: HeroButton;
 }
 
+/**
+ * The component properties describe a hero section
+ * split with title, content and buttons on the left, and image on the right.
+ */
 export interface SectionHeroSplitWithImageOnRight1Props {
   buttons?: Buttons;
   containerClassName?: string;

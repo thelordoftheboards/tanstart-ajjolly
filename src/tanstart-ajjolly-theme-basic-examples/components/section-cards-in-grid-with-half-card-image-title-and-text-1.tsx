@@ -13,7 +13,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
     },
     cards: [
       {
-        description:
+        content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         href: 'https://www.example.com',
         icon: IconBolt,
@@ -24,7 +24,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Ipsum Dolor Sit',
       },
       {
-        description:
+        content:
           'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.',
         href: 'https://www.example.com',
         icon: IconPalette,
@@ -35,7 +35,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Tempor Incididunt',
       },
       {
-        description:
+        content:
           'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.',
         href: 'https://www.example.com',
         icon: IconLayersLinked,
@@ -46,7 +46,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Eiusmod Magna',
       },
       {
-        description:
+        content:
           'Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
         href: 'https://www.example.com',
         icon: IconRocket,
@@ -57,7 +57,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Labore Et Dolore',
       },
       {
-        description:
+        content:
           'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         href: 'https://www.example.com',
         icon: IconBlocks,
@@ -68,7 +68,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Ullamco Laboris',
       },
       {
-        description:
+        content:
           'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
         href: 'https://www.example.com',
         icon: IconGlobe,
@@ -79,7 +79,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Eu Fugiat Nulla',
       },
     ],
-    description:
+    subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    heading: 'Lorem ipsum dolor sit amet consectetur elit',
+    title: 'Lorem ipsum dolor sit amet consectetur elit',
   };
