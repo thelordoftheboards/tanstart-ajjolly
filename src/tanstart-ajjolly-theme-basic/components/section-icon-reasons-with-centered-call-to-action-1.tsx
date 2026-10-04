@@ -2,15 +2,19 @@ import { cn } from 'cn';
 import { Button } from '~/components/ui/button';
 import { SectionIconReasonsWithCenteredCallToAction1Props } from '../schema/section-icon-reasons-with-centered-call-to-action-1';
 
+//
+
 const MAX_FEATURES = 6;
+
+//
 
 export const SectionIconReasonsWithCenteredCallToAction1 = ({
   title,
   bottomButtoms: buttons,
-  features,
+  items,
   containerClassName,
 }: SectionIconReasonsWithCenteredCallToAction1Props) => {
-  const items = (features ?? []).slice(0, MAX_FEATURES);
+  const cards = items.slice(0, MAX_FEATURES);
 
   return (
     <section className={cn('flex items-center justify-center py-32', containerClassName)}>
@@ -20,16 +24,18 @@ export const SectionIconReasonsWithCenteredCallToAction1 = ({
             <h2 className="text-pretty font-semibold text-4xl tracking-tight lg:text-5xl">{title}</h2>
           </div>
         )}
+
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-          {items.map((feature, ix) => (
+          {cards.map((feature, ix) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: Allow
             <div className="flex flex-col" key={ix}>
               <div className="mb-5 flex size-16 items-center justify-center rounded-full bg-accent">{feature.icon}</div>
               <h3 className="mb-2 font-medium text-xl">{feature.title}</h3>
-              <p className="text-muted-foreground">{feature.description}</p>
+              <p className="text-muted-foreground">{feature.content}</p>
             </div>
           ))}
         </div>
+
         {!!buttons?.primary?.url && (
           <div className="mt-16 flex justify-center">
             <Button nativeButton={false} render={<a href={buttons.primary.url} />} size="lg">

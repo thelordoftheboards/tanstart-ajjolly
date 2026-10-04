@@ -1,7 +1,7 @@
-export interface FeatureIconListItem {
-  description: string;
+export interface CardWithIcon {
+  content: string;
   href?: string;
-  icon?: React.ReactNode;
+  icon: React.ReactNode;
   title: string;
 }
 
@@ -16,11 +16,12 @@ export interface BottomButtons {
   secondary?: BottomButton;
 }
 
-export interface FeatureIconListProps {
+/**
+ *
+ */
+export interface SectionIconReasonsWithCenteredCallToAction1Props {
   bottomButtoms?: BottomButtons;
   containerClassName?: string;
-  features?: FeatureIconListItem[];
+  items: CardWithIcon[];
   title: string;
 }
-
-export interface SectionIconReasonsWithCenteredCallToAction1Props extends FeatureIconListProps {}
