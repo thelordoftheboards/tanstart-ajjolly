@@ -17,7 +17,7 @@ interface Buttons {
 
 export interface SectionHeroSplitWithImageOnRight1Props {
   buttons?: Buttons;
-  className?: string;
+  containerClassName?: string;
   description: string;
   heading: string;
   image: Image;

@@ -11,7 +11,7 @@ import { type SectionCardsInGridTitleContentLinks1Props } from '../../tanstart-a
 //
 
 export const SectionCardsInGridTitleContentLinks1Example: SectionCardsInGridTitleContentLinks1Props = {
-  items: [
+  cards: [
     {
       content:
         'Vivamus turpis lectus, sollicitudin id purus eget, pharetra varius dolor. Sed sit amet tristique dolor. Nam tincidunt tempus mauris id dapibus.',

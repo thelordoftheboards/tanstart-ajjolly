@@ -3,13 +3,13 @@ import { SectionBorderedCardsWithIconTitleDescriptionBullets1Props } from '../sc
 
 export function SectionBorderedCardsWithIconTitleDescriptionBullets1({
   containerClassName,
-  items,
+  cards,
 }: SectionBorderedCardsWithIconTitleDescriptionBullets1Props) {
   return (
     <section className={cn('my-16', containerClassName)}>
       <div className="container">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          {items.map((card) => (
+          {cards.map((card) => (
             <div
               className="space-y-6 rounded-lg border border-border p-8 transition-shadow hover:shadow-sm"
               key={card.title}

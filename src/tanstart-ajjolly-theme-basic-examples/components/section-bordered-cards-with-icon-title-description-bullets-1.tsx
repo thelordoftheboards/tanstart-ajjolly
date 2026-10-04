@@ -5,7 +5,7 @@ import { SectionBorderedCardsWithIconTitleDescriptionBullets1Props } from '~/tan
 
 export const SectionBorderedCardsWithIconTitleDescriptionBullets1Example: SectionBorderedCardsWithIconTitleDescriptionBullets1Props =
   {
-    items: [
+    cards: [
       {
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',

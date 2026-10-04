@@ -6,7 +6,7 @@ interface FaqItem {
 }
 
 export interface SectionFAQWithCollapsingAnswers1Props {
-  className?: string;
+  containerClassName?: string;
   heading: string;
   items: FaqItem[];
 }

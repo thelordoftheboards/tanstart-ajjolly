@@ -10,10 +10,10 @@ export const SectionHeroSplitWithImageOnRight1 = ({
   description,
   buttons,
   image,
-  className,
+  containerClassName,
 }: SectionHeroSplitWithImageOnRight1Props) => {
   return (
-    <section className={cn('py-32', className)}>
+    <section className={cn('py-32', containerClassName)}>
       <div className="container mx-auto">
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">

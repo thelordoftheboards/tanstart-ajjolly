@@ -23,7 +23,7 @@ export const SectionIconReasonsWithCenteredCallToAction1Example: SectionIconReas
       url: 'https://example.com',
     },
   },
-  items: [
+  cards: [
     {
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in urna vestibulum, eleifend orci non, porta neque.',

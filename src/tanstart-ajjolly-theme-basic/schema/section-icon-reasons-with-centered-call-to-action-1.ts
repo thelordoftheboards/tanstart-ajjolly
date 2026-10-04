@@ -21,7 +21,7 @@ export interface BottomButtons {
  */
 export interface SectionIconReasonsWithCenteredCallToAction1Props {
   bottomButtoms?: BottomButtons;
+  cards: CardWithIcon[];
   containerClassName?: string;
-  items: CardWithIcon[];
   title: string;
 }

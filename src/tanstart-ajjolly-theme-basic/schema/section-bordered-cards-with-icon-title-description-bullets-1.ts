@@ -12,5 +12,5 @@ export type BorderedCardWithIconTitleDescriptionBulletsItem = {
 
 export type SectionBorderedCardsWithIconTitleDescriptionBullets1Props = {
   containerClassName?: string;
-  items: BorderedCardWithIconTitleDescriptionBulletsItem[];
+  cards: BorderedCardWithIconTitleDescriptionBulletsItem[];
 };

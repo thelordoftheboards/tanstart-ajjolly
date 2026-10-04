@@ -24,6 +24,6 @@ export type CategoryCardCollectionItemType = {
  * Recommendation: 2-4 links with 10-20 chatacter titles.
  */
 export type SectionCardsInGridTitleContentLinks1Props = {
-  items: CategoryCardCollectionItemType[];
+  cards: CategoryCardCollectionItemType[];
   containerClassName?: string;
 };

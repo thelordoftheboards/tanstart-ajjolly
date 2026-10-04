@@ -3,7 +3,7 @@ import { type ForwardRefExoticComponent, type RefAttributes } from 'react';
 
 //
 
-interface FeatureCardListItem {
+interface CardListItem {
   description: string;
   href?: string;
   icon?: ForwardRefExoticComponent<IconProps & RefAttributes<SVGSVGElement>>;
@@ -31,8 +31,8 @@ interface Buttons {
 
 export interface SectionCardsInGridWithHalfCardImageTitleAndText1Props {
   buttons?: Buttons;
-  className?: string;
+  cards: CardListItem[];
+  containerClassName?: string;
   description?: string;
-  features?: FeatureCardListItem[];
   heading: string;
 }

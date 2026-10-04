@@ -4,18 +4,12 @@ import { SectionIconReasonsWithCenteredCallToAction1Props } from '../schema/sect
 
 //
 
-const MAX_FEATURES = 6;
-
-//
-
 export const SectionIconReasonsWithCenteredCallToAction1 = ({
   title,
   bottomButtoms: buttons,
-  items,
+  cards,
   containerClassName,
 }: SectionIconReasonsWithCenteredCallToAction1Props) => {
-  const cards = items.slice(0, MAX_FEATURES);
-
   return (
     <section className={cn('flex items-center justify-center py-32', containerClassName)}>
       <div className="container">

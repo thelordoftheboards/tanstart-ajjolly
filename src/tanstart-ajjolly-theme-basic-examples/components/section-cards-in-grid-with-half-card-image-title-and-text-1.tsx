@@ -11,9 +11,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         url: 'https://www.example.com',
       },
     },
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    features: [
+    cards: [
       {
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
@@ -81,5 +79,7 @@ export const SectionCardsInGridWithHalfCardImageTitleAndText1Example: SectionCar
         title: 'Eu Fugiat Nulla',
       },
     ],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     heading: 'Lorem ipsum dolor sit amet consectetur elit',
   };

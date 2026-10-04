@@ -7,9 +7,9 @@ import { SectionFAQWithCollapsingAnswers1Props } from '../schema/section-faq-wit
 export const SectionFAQWithCollapsingAnswers1 = ({
   heading,
   items,
-  className,
+  containerClassName,
 }: SectionFAQWithCollapsingAnswers1Props) => (
-  <section className={cn('py-32', className)}>
+  <section className={cn('py-32', containerClassName)}>
     <div className="container">
       <div className="mx-auto max-w-3xl">
         <h1 className="mb-4 font-semibold text-3xl md:mb-11 md:text-4xl">{heading}</h1>
